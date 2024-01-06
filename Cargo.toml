@@ -2,9 +2,15 @@
 name = "gpt4"
 version = "0.1.0"
 edition = "2021"
+authors = ["Johannes Naylor <jonaylor89@gmail.com>"]
+license = "MIT"
+documentation = "README.md"
+readme = "README.md"
+repository = "https://github.com/jonaylor89/gpt4-cli"
+homepage = "https://github.com/jonaylor89/gpt4-cli"
+description = "a cli to interact with the openai gpt4 api"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 anyhow = "1.0.79"
 config = "0.13.4"
