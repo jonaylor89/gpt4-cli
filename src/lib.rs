@@ -25,7 +25,7 @@ pub async fn llm(prompt: &str, token: &str) -> Result<String, reqwest::Error> {
         "messages": [
             {
                 "role": "system",
-                "content": "You are a helpful assistant"
+                "content": "You are a helpful assistant, keep your answers in markdown"
             },
             {
                 "role": "user",

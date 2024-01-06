@@ -35,7 +35,8 @@ async fn main() -> Result<()> {
 
     let prompt = &args[1..].join(" ");
     let output = llm(prompt, &openai_api_key).await?;
-    println!("{}", output);
+
+    termimad::print_text(&output);
 
     Ok(())
 }
