@@ -19,3 +19,8 @@ reqwest = { version = "0.11.23", features = ["json"] }
 serde = { version = "1.0.195", features = ["derive"] }
 serde_json = "1.0.111"
 tokio = { version = "1.35.1", features = ["full"] }
+
+[[bin]]
+name = "gpt4"
+test = false
+bench = false
