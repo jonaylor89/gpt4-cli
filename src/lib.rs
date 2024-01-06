@@ -3,13 +3,12 @@ use serde::Deserialize;
 use serde_json::json;
 
 #[derive(Deserialize, Debug)]
-struct Choice {
-    message: Message,
-}
-
-#[derive(Deserialize, Debug)]
 struct Message {
     content: String,
+}
+#[derive(Deserialize, Debug)]
+struct Choice {
+    message: Message,
 }
 
 #[derive(Deserialize, Debug)]
