@@ -1,6 +1,8 @@
 
 # gpt4 cli
 
+I built this because I've found it lowkey useful and didn't want to install [the python version a friend of mine built](https://github.com/dmanjunath/gpt4-cli) (compiled languages >>> )
+
 ### usage
 
 ```sh
